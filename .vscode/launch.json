@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClienteUDP<Exemplo_UDP>",
+            "request": "launch",
+            "mainClass": "ClienteUDP",
+            "args": "teste localhost",
+            "projectName": "Exemplo_UDP"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ServidorUDP<Exemplo_UDP>",
+            "request": "launch",
+            "mainClass": "ServidorUDP",
+            "projectName": "Exemplo_UDP"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<Exemplo_UDP>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "Exemplo_UDP"
+        }
+    ]
+}
